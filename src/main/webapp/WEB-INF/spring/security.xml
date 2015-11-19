@@ -10,8 +10,8 @@ http://www.springframework.org/schema/security/spring-security-3.0.xsd">
         <intercept-url pattern="/contacts*" access="ROLE_USER,ROLE_ANONYMOUS" />
         <intercept-url pattern="/result*" access="ROLE_USER" />
         <intercept-url pattern="/delete/*" access="ROLE_USER, ROLE_ADMIN" />
-        <form-login login-page="/login.jsp" default-target-url="/result"
-                    authentication-failure-url="/login.jsp?error=true" />
+        <form-login login-page="/in*" default-target-url="/result"
+                    authentication-failure-url="/in?error=true" />
         <logout logout-url="/logout" logout-success-url="/hello" />
 
 
