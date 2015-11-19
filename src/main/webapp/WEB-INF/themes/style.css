@@ -86,18 +86,7 @@ form{
         padding:0;
     margin-left: 5%;
 }
-/*
-li, a:link{
-    color: black;
-    font-family: Algerian, serif;
-    display: block;
-    width: 150px;
-    height: 100%;
-    font-weight:bold;
-    text-decoration:none;
-    text-transform:uppercase;
-}
-*/
+
 
 #404err {
     text-align: center;
