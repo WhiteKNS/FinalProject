@@ -12,7 +12,7 @@
 <body>
 
 <div id="wrapper">
-    <p> <a href="/hello">Main</a></p>
+    <p> <a href="/">Main</a></p>
     <p> <a href="/contacts">Contacts</a></p>
     <p><a href="/in">In</a></p>
 
