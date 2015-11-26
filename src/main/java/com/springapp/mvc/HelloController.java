@@ -111,10 +111,10 @@ public class HelloController {
         user.setBirthdate("13.02.1990");
         user.setEmail("academic13forte@gmail.com");
         user.setFirstname("Natalia");
-        user.setLastname("Konkina");
+        user.setLastname("K");
         user.setLogin("academic13forte");
         user.setPassword("13021990");
-        user.setPhone("2764069");
+        user.setPhone("1234567");
         model.addAttribute("user", new User());
         return "main";
     }
